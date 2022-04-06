@@ -1,3 +1,8 @@
+*{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
 .titulo{
     display: flex;
     background-color: #1f2937;
@@ -18,11 +23,14 @@
    }
    input{background-color: #3882f6;
     font-size: 18px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #E5E7Eb}
+    color: #E5E7Eb;
+    width: 120px;
+    height: 40px;}
 .encabezado .text{
-    width: 50%
-    ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
 }
 .encabezado .image{
     display: flex;
@@ -34,6 +42,7 @@
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 .titulo, .encabezado{
     color: #E5E7Eb
@@ -63,15 +72,79 @@
         box-sizing: border-box;
         text-align: center;
     }
+.quote{display: flex;
+background-color: #E5E7Eb;
+height: 200px;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;}
+.quote h3{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 400px;
+    text-align: center;
+    color: #1f2937;
+}
+.quote h4{
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    padding-bottom: 20px;
+    color: #1f2937;
+}
+.registro{
+    display: flex;
+    background-color: #3882f6;
+    justify-content:space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    width: 60%;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 20%;
+    margin-bottom: 80px;}
+    
+.registro .texto{
+    padding-left: 50px;
+    }
+ .registro .boton{
+ }   
+
+.registro h2{
+    color: #f9faf8;
+    font-size: 24px;
+    margin-bottom: 0%;
+}
+.registro h4{     
+    color:#E5E7Eb;
+    font-size: 18px;
+    margin-top: 0%;
+   
+}
+
+  
+}
 
 h4,a{
-    font-size: 18px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    ;
+    font-size: 18px;    ;
 }
 a{color: #E5E7Eb}
 h1{
     size: 48px;
     font-weight: bolder;
     color:#f9faf8;
+}
+footer{
+    display: flex;
+    background-color: #1f2937;
+    height: 120px;
+    color:#f9faf8;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+
 }
